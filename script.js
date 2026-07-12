@@ -1,7 +1,19 @@
-const navLinks = document.querySelectorAll(".nav-links a");
+const revealElements = document.querySelectorAll(".reveal");
 
-navLinks.forEach((link) => {
-    link.addEventListener("click", () => {
-        console.log(`正在前往：${link.textContent}`);
-    });
+const revealObserver = new IntersectionObserver(
+    (entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+                revealObserver.unobserve(entry.target);
+            }
+        });
+    },
+    {
+        threshold: 0.12,
+    }
+);
+
+revealElements.forEach((element) => {
+    revealObserver.observe(element);
 });

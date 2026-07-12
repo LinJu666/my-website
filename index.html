@@ -2,13 +2,108 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>我的个人网站第三版——已经推到github上</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nick Kelly | 科技内容创作者</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello Git!</h1>
+    <header class="navbar">
+        <a class="logo" href="#">NK.</a>
 
+        <nav class="nav-links">
+            <a href="#home">首页</a>
+            <a href="#projects">作品</a>
+            <a href="#about">关于</a>
+            <a href="#contact">联系</a>
+        </nav>
+    </header>
 
-    s a是是是
-    是是是s
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">AI · 科技 · 3D 视觉</p>
+
+                <h1>
+                    用技术与视觉，
+                    <span>讲清楚复杂的世界。</span>
+                </h1>
+
+                <p class="hero-description">
+                    你好，我是 Nick。
+                    我正在学习 AI、网页开发和 C4D，
+                    并把学习过程制作成科技内容与视觉作品。
+                </p>
+
+                <div class="hero-actions">
+                    <a class="primary-button" href="#projects">查看作品</a>
+                    <a class="secondary-button" href="#about">了解我</a>
+                </div>
+            </div>
+
+            <div class="visual-card">
+                <div class="visual-glow"></div>
+
+                <div class="visual-content">
+                    <span>CREATIVE SYSTEM</span>
+                    <strong>AI × CODE × 3D</strong>
+                    <p>Building ideas into digital experiences.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <div class="section-heading">
+                <p>SELECTED WORK</p>
+                <h2>正在探索的方向</h2>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <span>01</span>
+                    <h3>AI 内容创作</h3>
+                    <p>研究 AI 工具、模型能力和实际应用，并制作容易理解的科技内容。</p>
+                </article>
+
+                <article class="project-card">
+                    <span>02</span>
+                    <h3>C4D 产品视觉</h3>
+                    <p>学习产品建模、材质、灯光与动画，制作科技产品视觉素材。</p>
+                </article>
+
+                <article class="project-card">
+                    <span>03</span>
+                    <h3>个人网站开发</h3>
+                    <p>从 HTML、CSS 和 JavaScript 开始，建立自己的数字作品空间。</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="section-heading">
+                <p>ABOUT</p>
+                <h2>持续学习，也持续输出</h2>
+            </div>
+
+            <p class="about-text">
+                我希望把复杂的科技知识转化为简单、清晰、有视觉吸引力的内容。
+                这个网站将记录我的学习过程、个人项目、视频和视觉作品。
+            </p>
+        </section>
+
+        <section class="contact section" id="contact">
+            <p>LET'S CONNECT</p>
+            <h2>一起创造有趣的科技内容。</h2>
+            <a class="primary-button" href="mailto:your-email@example.com">联系我</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Nick Kelly. Built with HTML, CSS and curiosity.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

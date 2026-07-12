@@ -1,470 +1,428 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <meta
-        name="description"
-        content="Nick Studio，记录仿真、电路、AI 工具、3D 视觉和技术教程。"
-    >
-
-    <title>Nick Studio — Engineering, AI & Creation</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="林俊工作室——记录工程、仿真、AI、工具、视频与视觉实验。"
+  />
+  <title>林俊工作室</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <!-- 顶部导航 -->
-    <header class="site-header">
-        <a class="brand" href="#home">
-            Nick Studio
-        </a>
-
-        <nav class="desktop-nav" aria-label="主导航">
-            <a href="#projects">项目</a>
-            <a href="#capabilities">方向</a>
-            <a href="#videos">视频</a>
-            <a href="#notes">教程</a>
-            <a href="#about">关于</a>
-        </nav>
-
-        <a class="header-contact" href="#contact">
-            联系我 ↗
-        </a>
-    </header>
-
-    <main>
-        <!-- 首页首屏 -->
-        <section class="hero" id="home">
-            <p class="hero-kicker reveal">
-                Independent engineering and creative studio
-            </p>
-
-            <h1 class="hero-title reveal">
-                把复杂的技术，
-                <span>变成可以理解、操作</span>
-                和传播的作品。
-            </h1>
-
-            <div class="hero-footer reveal">
-                <p>
-                    仿真、电路、AI 工具、网页实验与技术教程，
-                    记录从问题、验证到最终作品的完整过程。
-                </p>
-
-                <a class="hero-link" href="#projects">
-                    浏览项目
-                    <span>↓</span>
-                </a>
-            </div>
-        </section>
-
-        <!-- 精选项目 -->
-        <section class="section" id="projects">
-            <div class="section-header reveal">
-                <p>01 / Selected projects</p>
-
-                <h2>
-                    从工程问题出发，
-                    建立可以被理解和使用的作品。
-                </h2>
-            </div>
-
-            <div class="project-index">
-                <article class="project-row reveal">
-                    <span class="project-number">01</span>
-
-                    <div class="project-content">
-                        <p class="project-type">
-                            Simulation · Electronics
-                        </p>
-
-                        <h3>RC 低通滤波器交互仿真</h3>
-
-                        <p class="project-description">
-                            使用电路图、参数计算、频率响应和动态演示，
-                            解释 RC 低通滤波器的工作原理。
-                        </p>
-                    </div>
-
-                    <div class="project-tags">
-                        <span>仿真</span>
-                        <span>电路</span>
-                        <span>教程</span>
-                    </div>
-
-                    <span class="project-link">↗</span>
-                </article>
-
-                <article class="project-row reveal">
-                    <span class="project-number">02</span>
-
-                    <div class="project-content">
-                        <p class="project-type">
-                            AI · Automation
-                        </p>
-
-                        <h3>AI 内容生产工作流</h3>
-
-                        <p class="project-description">
-                            将资料整理、脚本撰写、视觉素材和发布流程连接起来，
-                            建立可重复使用的科技内容生产系统。
-                        </p>
-                    </div>
-
-                    <div class="project-tags">
-                        <span>AI</span>
-                        <span>自动化</span>
-                        <span>开发中</span>
-                    </div>
-
-                    <span class="project-link">↗</span>
-                </article>
-
-                <article class="project-row reveal">
-                    <span class="project-number">03</span>
-
-                    <div class="project-content">
-                        <p class="project-type">
-                            3D · Visualization
-                        </p>
-
-                        <h3>科技产品 3D 视觉实验</h3>
-
-                        <p class="project-description">
-                            使用 C4D 进行产品建模、材质、灯光和动画实验，
-                            为科技视频制作原创视觉内容。
-                        </p>
-                    </div>
-
-                    <div class="project-tags">
-                        <span>C4D</span>
-                        <span>动画</span>
-                        <span>视觉</span>
-                    </div>
-
-                    <span class="project-link">↗</span>
-                </article>
-
-                <article class="project-row reveal">
-                    <span class="project-number">04</span>
-
-                    <div class="project-content">
-                        <p class="project-type">
-                            Circuit · Measurement
-                        </p>
-
-                        <h3>电路仿真与实测对比</h3>
-
-                        <p class="project-description">
-                            通过仿真结果、示波器波形与实际测试数据，
-                            对比理论模型和真实电路之间的差异。
-                        </p>
-                    </div>
-
-                    <div class="project-tags">
-                        <span>测试</span>
-                        <span>示波器</span>
-                        <span>验证</span>
-                    </div>
-
-                    <span class="project-link">↗</span>
-                </article>
-            </div>
-        </section>
-
-        <!-- 内容方向 -->
-        <section
-            class="section capabilities-section"
-            id="capabilities"
-        >
-            <div class="section-header reveal">
-                <p>02 / What I build</p>
-
-                <h2>
-                    从工程实验，
-                    到可以被理解和传播的数字作品。
-                </h2>
-            </div>
-
-            <div class="capability-grid">
-                <article class="capability-card reveal">
-                    <span>01</span>
-
-                    <div>
-                        <h3>仿真</h3>
-
-                        <p>
-                            电路、信号、系统和参数变化的可视化实验。
-                        </p>
-                    </div>
-                </article>
-
-                <article class="capability-card reveal">
-                    <span>02</span>
-
-                    <div>
-                        <h3>电路</h3>
-
-                        <p>
-                            从原理图、PCB，到实际测量和功能验证。
-                        </p>
-                    </div>
-                </article>
-
-                <article class="capability-card reveal">
-                    <span>03</span>
-
-                    <div>
-                        <h3>AI 项目</h3>
-
-                        <p>
-                            使用 AI 改进创作、学习和工程工作流。
-                        </p>
-                    </div>
-                </article>
-
-                <article class="capability-card reveal">
-                    <span>04</span>
-
-                    <div>
-                        <h3>技术教程</h3>
-
-                        <p>
-                            把复杂概念转化成清晰、直观、有结构的内容。
-                        </p>
-                    </div>
-                </article>
-
-                <article class="capability-card reveal">
-                    <span>05</span>
-
-                    <div>
-                        <h3>3D 视觉</h3>
-
-                        <p>
-                            产品建模、动画与科技内容中的视觉表达。
-                        </p>
-                    </div>
-                </article>
-
-                <article class="capability-card reveal">
-                    <span>06</span>
-
-                    <div>
-                        <h3>网页工具</h3>
-
-                        <p>
-                            将公式、计算和实验做成可操作的网页应用。
-                        </p>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- 最新视频 -->
-        <section class="section" id="videos">
-            <div class="section-header reveal">
-                <p>03 / Latest videos</p>
-
-                <h2>
-                    用短视频吸引注意，
-                    用完整项目沉淀价值。
-                </h2>
-            </div>
-
-            <div class="media-grid">
-                <article class="media-card reveal">
-                    <div class="media-preview media-preview-dark">
-                        <span>VIDEO 01</span>
-
-                        <strong>
-                            RC 低通
-                            <br>
-                            滤波器
-                        </strong>
-                    </div>
-
-                    <div class="media-info">
-                        <h3>
-                            一分钟看懂 RC 低通滤波器
-                        </h3>
-
-                        <p>
-                            原理动画、截止频率与实际应用。
-                        </p>
-                    </div>
-                </article>
-
-                <article class="media-card reveal">
-                    <div class="media-preview media-preview-light">
-                        <span>VIDEO 02</span>
-
-                        <strong>
-                            Git &
-                            <br>
-                            GitHub
-                        </strong>
-                    </div>
-
-                    <div class="media-info">
-                        <h3>
-                            Git 和 GitHub 到底有什么区别？
-                        </h3>
-
-                        <p>
-                            用本地存档和云端仓库讲清楚开发流程。
-                        </p>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- 教程与笔记 -->
-        <section class="section" id="notes">
-            <div class="section-header reveal">
-                <p>04 / Notes and tutorials</p>
-
-                <h2>
-                    公开记录真正做过、
-                    理解过和验证过的内容。
-                </h2>
-            </div>
-
-            <div class="notes-list">
-                <a class="note-item reveal" href="#">
-                    <div class="note-main">
-                        <span>Git</span>
-
-                        <h3>
-                            从 Git 到 GitHub，再到 Vercel
-                        </h3>
-                    </div>
-
-                    <time datetime="2026-07">
-                        2026.07
-                    </time>
-
-                    <span class="note-arrow">↗</span>
-                </a>
-
-                <a class="note-item reveal" href="#">
-                    <div class="note-main">
-                        <span>Electronics</span>
-
-                        <h3>
-                            RC 滤波器的截止频率如何理解
-                        </h3>
-                    </div>
-
-                    <time>
-                        即将发布
-                    </time>
-
-                    <span class="note-arrow">↗</span>
-                </a>
-
-                <a class="note-item reveal" href="#">
-                    <div class="note-main">
-                        <span>Simulation</span>
-
-                        <h3>
-                            如何对比仿真波形与实测结果
-                        </h3>
-                    </div>
-
-                    <time>
-                        制作中
-                    </time>
-
-                    <span class="note-arrow">↗</span>
-                </a>
-
-                <a class="note-item reveal" href="#">
-                    <div class="note-main">
-                        <span>3D</span>
-
-                        <h3>
-                            用 C4D 制作科技产品动画素材
-                        </h3>
-                    </div>
-
-                    <time>
-                        制作中
-                    </time>
-
-                    <span class="note-arrow">↗</span>
-                </a>
-            </div>
-        </section>
-
-        <!-- 关于 -->
-        <section class="section about-section" id="about">
-            <div class="about-label reveal">
-                05 / About
-            </div>
-
-            <div class="about-content">
-                <h2 class="reveal">
-                    我关注的不只是技术本身，
-                    更关注如何把技术变成有用、
-                    易懂和有吸引力的作品。
-                </h2>
-
-                <div class="about-columns reveal">
-                    <p>
-                        我的项目横跨仿真、电路、AI、网页开发与
-                        3D 视觉。这个网站不是传统简历，
-                        而是一个持续生长的数字工作室。
-                    </p>
-
-                    <p>
-                        我会在这里发布项目过程、教程、
-                        交互实验和视频资料，让短视频中的一分钟内容，
-                        拥有更完整的技术背景。
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- 联系 -->
-        <section class="contact-section" id="contact">
-            <p class="reveal">
-                06 / Contact
-            </p>
-
-            <h2 class="reveal">
-                有项目、内容或合作想法？
-                <span>让我们聊聊。</span>
-            </h2>
-
-            <a
-                class="contact-link reveal"
-                href="mailto:your-email@example.com"
-            >
-                your-email@example.com ↗
+  <svg class="sprite" aria-hidden="true">
+    <symbol id="arrow-up-right" viewBox="0 0 24 24">
+      <path d="M7 17 17 7M8 7h9v9" />
+    </symbol>
+    <symbol id="arrow-down" viewBox="0 0 24 24">
+      <path d="m6 9 6 6 6-6" />
+    </symbol>
+    <symbol id="wave" viewBox="0 0 24 24">
+      <path d="M3 12c2.3-6 4.7-6 7 0s4.7 6 7 0 3.2-4.7 4-5" />
+    </symbol>
+    <symbol id="circuit" viewBox="0 0 24 24">
+      <path d="M4 6h5M15 6h5M9 3v6h6V3M4 18h5M15 18h5M9 15v6h6v-6" />
+    </symbol>
+    <symbol id="spark" viewBox="0 0 24 24">
+      <path d="m12 3 1.7 5.3L19 10l-5.3 1.7L12 17l-1.7-5.3L5 10l5.3-1.7L12 3Z" />
+      <path d="m19 16 .8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16Z" />
+    </symbol>
+    <symbol id="cube" viewBox="0 0 24 24">
+      <path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z" />
+      <path d="m4 7.5 8 4.5 8-4.5M12 12v9" />
+    </symbol>
+    <symbol id="play" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9" />
+      <path d="m10 8 6 4-6 4V8Z" />
+    </symbol>
+    <symbol id="book" viewBox="0 0 24 24">
+      <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v16H6.5A2.5 2.5 0 0 0 4 21.5v-16ZM20 5.5A2.5 2.5 0 0 0 17.5 3H13v16h4.5a2.5 2.5 0 0 1 2.5 2.5v-16Z" />
+    </symbol>
+    <symbol id="tool" viewBox="0 0 24 24">
+      <path d="M14.7 6.3a4 4 0 0 0-5 5L4 17l3 3 5.7-5.7a4 4 0 0 0 5-5l-2.4 2.4-3-3 2.4-2.4Z" />
+    </symbol>
+    <symbol id="mail" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="m4 7 8 6 8-6" />
+    </symbol>
+  </svg>
+
+  <header class="topbar">
+    <a class="brand" href="#home">
+      <span class="brand-mark">LJ</span>
+      <span>林俊工作室</span>
+    </a>
+
+    <nav class="nav" aria-label="主导航">
+      <a href="#projects">项目</a>
+      <a href="#tools">工具</a>
+      <a href="#videos">视频</a>
+      <a href="#notes">教程</a>
+      <a href="#about">关于</a>
+    </nav>
+
+    <a class="contact-nav" href="#contact">
+      联系
+      <svg class="icon"><use href="#arrow-up-right" /></svg>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero page-shell" id="home">
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="hero-meta reveal">
+        <span>工程创作者</span>
+        <span>中国</span>
+      </div>
+
+      <div class="hero-main">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">林俊工作室 / 2026</p>
+          <h1>做出那些<br />能够讲清楚自己的作品。</h1>
+          <p class="hero-description">
+            用仿真、电路、AI、网页工具与 3D 视觉，
+            把复杂技术变成可以理解、操作和传播的作品。
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-dark" href="#projects">
+              浏览项目
+              <svg class="icon"><use href="#arrow-down" /></svg>
             </a>
-        </section>
-    </main>
+            <a class="button button-light" href="#notes">
+              查看教程
+            </a>
+          </div>
+        </div>
 
-    <!-- 页脚 -->
-    <footer class="site-footer">
-        <p>© 2026 Nick Studio</p>
+        <div class="hero-visual reveal" aria-label="抽象工程视觉">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
 
-        <p>
-            Engineering · AI · Visual Creation
-        </p>
+          <div class="visual-core">
+            <span class="core-label">LJ</span>
+            <span class="core-small">工作室</span>
+          </div>
 
-        <a href="#home">
-            回到顶部 ↑
+          <div class="visual-chip chip-one">
+            <svg class="icon"><use href="#wave" /></svg>
+            仿真
+          </div>
+
+          <div class="visual-chip chip-two">
+            <svg class="icon"><use href="#circuit" /></svg>
+            电路
+          </div>
+
+          <div class="visual-chip chip-three">
+            <svg class="icon"><use href="#spark" /></svg>
+            AI
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-footer reveal">
+        <span>向下探索</span>
+        <svg class="icon"><use href="#arrow-down" /></svg>
+      </div>
+    </section>
+
+    <section class="section page-shell" id="projects">
+      <div class="section-intro reveal">
+        <p class="eyebrow">01 / 精选项目</p>
+        <h2>项目 built to be understood, tested and used.</h2>
+      </div>
+
+      <div class="featured-grid">
+        <article class="project-card project-large reveal">
+          <div class="project-art art-wave">
+            <div class="wave-line wave-a"></div>
+            <div class="wave-line wave-b"></div>
+            <div class="wave-line wave-c"></div>
+            <div class="project-badge">
+              <svg class="icon"><use href="#wave" /></svg>
+              仿真
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div>
+              <p class="project-index">01</p>
+              <h3>RC 滤波器交互仿真</h3>
+              <p>
+                通过参数控制、频率响应和动态波形，
+                让滤波器原理变得可见、可调、可验证。
+              </p>
+            </div>
+            <svg class="icon project-link"><use href="#arrow-up-right" /></svg>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-ai">
+            <svg class="art-icon"><use href="#spark" /></svg>
+            <div class="ai-grid"></div>
+            <div class="project-badge">
+              <svg class="icon"><use href="#spark" /></svg>
+              AI 工作流
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div>
+              <p class="project-index">02</p>
+              <h3>AI 内容生产工作流</h3>
+              <p>从资料整理到脚本、视觉与发布的自动化工作流。</p>
+            </div>
+            <svg class="icon project-link"><use href="#arrow-up-right" /></svg>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-circuit">
+            <svg class="art-icon"><use href="#circuit" /></svg>
+            <div class="circuit-trace"></div>
+            <div class="project-badge">
+              <svg class="icon"><use href="#circuit" /></svg>
+              测试验证
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div>
+              <p class="project-index">03</p>
+              <h3>Circuit 测试验证</h3>
+              <p>把仿真波形、测试结果和理论模型放在一起分析。</p>
+            </div>
+            <svg class="icon project-link"><use href="#arrow-up-right" /></svg>
+          </div>
+        </article>
+
+        <article class="project-card project-wide reveal">
+          <div class="project-art art-cube">
+            <svg class="art-icon cube-icon"><use href="#cube" /></svg>
+            <div class="cube-shadow"></div>
+            <div class="project-badge">
+              <svg class="icon"><use href="#cube" /></svg>
+              3D 动画
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div>
+              <p class="project-index">04</p>
+              <h3>科技产品 3D 动画</h3>
+              <p>使用 C4D 为科技内容制作产品建模、灯光与动画视觉。</p>
+            </div>
+            <svg class="icon project-link"><use href="#arrow-up-right" /></svg>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="tools">
+      <div class="page-shell">
+        <div class="section-intro reveal">
+          <p class="eyebrow eyebrow-light">02 / 互动工具</p>
+          <h2>当知识可以被亲手操作，它才真正变得有用。</h2>
+        </div>
+
+        <div class="tools-layout">
+          <div class="tool-feature reveal">
+            <div class="tool-feature-top">
+              <span>精选工具</span>
+              <svg class="icon-lg"><use href="#tool" /></svg>
+            </div>
+
+            <div class="tool-display">
+              <div class="tool-display-grid"></div>
+              <div class="tool-readout">
+                <span>截止频率</span>
+                <strong>1.59 kHz</strong>
+              </div>
+            </div>
+
+            <div class="tool-feature-bottom">
+              <h3>RC 截止频率计算器</h3>
+              <p>输入电阻和电容，实时计算截止频率并显示频率响应。</p>
+            </div>
+          </div>
+
+          <div class="tool-list">
+            <a class="tool-row reveal" href="#">
+              <span>01</span>
+              <div>
+                <h3>波特图交互查看器</h3>
+                <p>交互查看幅频和相频变化。</p>
+              </div>
+              <svg class="icon"><use href="#arrow-up-right" /></svg>
+            </a>
+
+            <a class="tool-row reveal" href="#">
+              <span>02</span>
+              <div>
+                <h3>波形生成器</h3>
+                <p>生成并比较常见波形。</p>
+              </div>
+              <svg class="icon"><use href="#arrow-up-right" /></svg>
+            </a>
+
+            <a class="tool-row reveal" href="#">
+              <span>03</span>
+              <div>
+                <h3>AI 提示词构建器</h3>
+                <p>整理结构化 AI 提示词。</p>
+              </div>
+              <svg class="icon"><use href="#arrow-up-right" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-shell" id="videos">
+      <div class="section-intro reveal">
+        <p class="eyebrow">03 / 最新视频</p>
+        <h2>短视频负责打开入口，完整项目负责深入讲清楚。</h2>
+      </div>
+
+      <div class="video-grid">
+        <article class="video-card reveal">
+          <div class="video-cover video-cover-dark">
+            <svg class="play-icon"><use href="#play" /></svg>
+            <div class="video-cover-copy">
+              <span>01</span>
+              <strong>RC Filter</strong>
+            </div>
+          </div>
+          <div class="video-info">
+            <div>
+              <h3>一分钟看懂 RC 低通滤波器</h3>
+              <p>哔哩哔哩 · 01:00</p>
+            </div>
+            <svg class="icon"><use href="#arrow-up-right" /></svg>
+          </div>
+        </article>
+
+        <article class="video-card reveal">
+          <div class="video-cover video-cover-light">
+            <svg class="play-icon"><use href="#play" /></svg>
+            <div class="video-cover-copy">
+              <span>02</span>
+              <strong>Git → 网站上线</strong>
+            </div>
+          </div>
+          <div class="video-info">
+            <div>
+              <h3>Git、GitHub 和 Vercel 的关系</h3>
+              <p>哔哩哔哩 · 02:30</p>
+            </div>
+            <svg class="icon"><use href="#arrow-up-right" /></svg>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section page-shell" id="notes">
+      <div class="section-intro reveal">
+        <p class="eyebrow">04 / 教程</p>
+        <h2>记录那些真正做过、理解过和验证过的内容。</h2>
+      </div>
+
+      <div class="notes-grid">
+        <article class="note-feature reveal">
+          <div class="note-icon">
+            <svg class="icon-lg"><use href="#book" /></svg>
+          </div>
+          <div>
+            <p class="note-category">指南</p>
+            <h3>从 Git 到 GitHub，再到 Vercel</h3>
+            <p>一套适合初学者的完整网站上线流程。</p>
+          </div>
+          <a href="#">
+            阅读教程
+            <svg class="icon"><use href="#arrow-up-right" /></svg>
+          </a>
+        </article>
+
+        <div class="note-list">
+          <a class="note-row reveal" href="#">
+            <span>电路</span>
+            <h3>RC 滤波器截止频率怎么理解</h3>
+            <time>2026.07</time>
+          </a>
+
+          <a class="note-row reveal" href="#">
+            <span>仿真</span>
+            <h3>仿真结果与实测结果为什么不同</h3>
+            <time>即将发布</time>
+          </a>
+
+          <a class="note-row reveal" href="#">
+            <span>3D</span>
+            <h3>用 C4D 做科技产品动画</h3>
+            <time>制作中</time>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-shell about" id="about">
+      <div class="about-visual reveal">
+        <div class="about-monogram">LJ</div>
+        <div class="about-ring"></div>
+      </div>
+
+      <div class="about-copy reveal">
+        <p class="eyebrow">05 / 关于</p>
+        <h2>
+          林俊工作室，是一个记录工程实践、实验过程与清晰表达的数字空间。
+        </h2>
+
+        <div class="about-columns">
+          <p>
+            我关注仿真、电路、AI、网页工具与 3D 视觉，
+            希望把复杂技术做成真正可以理解、使用和传播的作品。
+          </p>
+          <p>
+            这里不是传统简历，而是持续更新的项目库、工具库、
+            教程库和内容工作室。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section page-shell" id="contact">
+      <svg class="contact-icon reveal"><use href="#mail" /></svg>
+      <p class="eyebrow reveal">06 / 联系</p>
+      <h2 class="reveal">一起做点真正有用的东西。</h2>
+      <div class="contact-links reveal">
+        <a href="mailto:your-email@example.com">
+          your-email@example.com
+          <svg class="icon"><use href="#arrow-up-right" /></svg>
         </a>
-    </footer>
+        <a href="#">
+          GitHub
+          <svg class="icon"><use href="#arrow-up-right" /></svg>
+        </a>
+        <a href="#">
+          Bilibili
+          <svg class="icon"><use href="#arrow-up-right" /></svg>
+        </a>
+      </div>
+    </section>
+  </main>
 
-    <script src="script.js"></script>
+  <footer class="footer">
+    <span>© 2026 LinJun Studio</span>
+    <span>工程 · AI · 视觉创作</span>
+    <a href="#home">回到顶部 ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
